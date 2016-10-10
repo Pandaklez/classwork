@@ -1,0 +1,19 @@
+# Web - приложение
+# (комп пользователя)HTML(на JavaScriot)здесь клиентский скрипт или front end <------> (сервер)код(на любом языке)Здесь серверные скрипты, back end
+# модуль flask
+# Разбираться будем с бэк ендом в основном
+# GET и POST запросы - это такие методы
+# пример http://yandex.ru?query=мойзапрос&login=...&password=... (Это условно)
+#Посмотреть сайты htmlbook
+#Это клиентская часть
+<form action="htpp://yandex.ru">
+
+<input type="text" name="query">
+<input type="submit" value="кнопка">
+#value means надпись на кнопке
+
+</form>
+#
+#
+#
+#
