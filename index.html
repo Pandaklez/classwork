@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Коды языков мира</title>
+</head>
+<body>
+<h1>Коды iso языков мира</h1>
+<ul>
+    {% for language, iso in languages.items() %}
+        <li>{{ language }} - {{ iso }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
